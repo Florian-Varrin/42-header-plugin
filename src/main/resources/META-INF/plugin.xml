@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>fr.eywek.header</id>
   <name>42Header</name>
-  <version>1.1</version>
+  <version>1.1.1</version>
   <vendor email="contact@eywek.fr" url="https://eywek.fr">Eywek</vendor>
 
   <description><![CDATA[

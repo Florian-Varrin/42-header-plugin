@@ -37,6 +37,7 @@ public class AddAction implements ApplicationComponent {
 
                 if (!checkerService.checkIsRightFileType(file)) return;
                 if (!state.automaticAdd) return;
+                if (checkerService.checkIfHasHeader(file)) return;
 
                 String filename = file.getName();
                 String username = state.username;
